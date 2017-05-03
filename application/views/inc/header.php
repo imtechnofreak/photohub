@@ -28,7 +28,7 @@
 		   <ul>
 		   <?php if(isset($_SESSION['user_id'])): ?>
 		    <li>
-			<a href="<?php echo base_url();?>user/pictures">My Pictures</a>
+			<a href="<?php echo base_url();?>editor">Editor</a>
 			</li>
 			<li>
 			<a href="<?php echo base_url();?>user/logout">Logout</a>
