@@ -31,6 +31,9 @@
 			<a href="<?php echo base_url();?>editor">Editor</a>
 			</li>
 			<li>
+			 <a href="<?php echo base_url();?>picture/upload">Upload Images</a>
+			</li>
+			<li>
 			<a href="<?php echo base_url();?>user/logout">Logout</a>
 			</li>
 		   <?php else: ?>
