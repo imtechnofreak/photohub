@@ -31,6 +31,8 @@ xmlhttp.onreadystatechange = function(){
     }
 };
 
+xmlhttp.open('');
+xmlhttp.send();
 </script>
 <input type="button" value="Upload" onclick="showPicker()" />
           </div> 
